@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#navbar {
+  position: absolute;
+  width: 375px;
+  height: 48px;
+  top: 0px;
+  background-color: #3c3a39;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 12px;
+}
+#logo {
+  height: 24px;
+  top: calc(50% - 44px / 2);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+#menu {
+  width: 24px;
+  height: 24px;
+}
