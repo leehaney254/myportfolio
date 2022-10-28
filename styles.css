@@ -48,7 +48,7 @@ body {
 }
 
 #texttwo {
-  font-family: "Roboto";
+  font-family: "Roboto", serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -61,15 +61,16 @@ body {
 #textthree {
   width: 327px;
   height: 123px;
-  font-family: "Poppins";
+  font-family: "Poppins", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #ffffff;
+  color: #fff;
   padding: 0 24px 0 24px;
   margin: 0;
 }
+
 #socialmedia {
   display: flex;
   flex-direction: row;
