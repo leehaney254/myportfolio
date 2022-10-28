@@ -1,10 +1,13 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #1c1a19;
+  background-image: url("./assets/Illustration.png");
+  background-repeat: no-repeat;
+  background-position: 100% 200%;
 }
 
 #navbar {
-  position: absolute;
   width: 375px;
   height: 48px;
   background-color: #3c3a39;
@@ -29,4 +32,69 @@ body {
 #menu {
   width: 24px;
   height: 24px;
+}
+
+#intro {
+  width: 327px;
+  height: 124px;
+  padding: 120px 24px 25px 24px;
+}
+
+#primary {
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+}
+
+#texttwo {
+  font-family: "Roboto", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff5e1;
+  padding: 0 24px 0 24px;
+  margin: 30px 0 5px 0;
+}
+
+#textthree {
+  width: 327px;
+  height: 123px;
+  font-family: "Poppins", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  padding: 0 24px 0 24px;
+  margin: 0;
+}
+
+#socialmedia {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 200px;
+  height: 40px;
+  padding: 0 24px 0 24px;
+}
+
+.icons {
+  padding: 8px;
+}
+
+#decor {
+  position: absolute;
+  left: 230px;
+  top: 300px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
