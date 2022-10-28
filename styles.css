@@ -2,6 +2,9 @@ body {
   margin: 0;
   padding: 0;
   background-color: #1c1a19;
+  background-image: url("./assets/Illustration.png");
+  background-repeat: no-repeat;
+  background-position: 100% 200%;
 }
 
 #navbar {
@@ -88,4 +91,10 @@ body {
   position: absolute;
   left: 230px;
   top: 300px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
