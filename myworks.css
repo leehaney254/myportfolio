@@ -6,7 +6,7 @@ header {
 }
 
 #heads {
-  font-family: "Crete Round";
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -31,6 +31,7 @@ section {
   background-image: url("./assets/rest-card.png");
   background-repeat: no-repeat;
 }
+
 #head1 {
   width: 327px;
   height: 36px;
@@ -41,10 +42,11 @@ section {
   line-height: 44px;
   color: #091e42;
 }
+
 .head-other {
   width: 295px;
   height: 81px;
-  font-family: "Crete Round";
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -55,7 +57,7 @@ section {
 .body-other {
   width: 295px;
   height: 87px;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -83,21 +85,21 @@ section {
 }
 
 .button1 {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
   width: 49px;
   height: 40px;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #8993a4;
 }
 
 .but-other {
   height: 40px;
   background: rgba(255, 255, 255, 0.24);
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -150,6 +152,7 @@ button:hover {
   border: 1px solid #f55800;
   color: #f55800;
 }
+
 .description {
   margin-left: 10px;
 }
