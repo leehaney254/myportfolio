@@ -1,11 +1,14 @@
 body {
   background: #1c1a19;
+}
+#about-me {
+  background: #1c1a19;
   background-image: url("./assets/readme.png");
   background-repeat: no-repeat;
   background-position: 100% 20%;
 }
 
-header {
+#about-tit {
   width: 327px;
   height: 79px;
   margin: 120px 24px 24px 24px;
@@ -76,7 +79,7 @@ header {
   margin: 30px 0;
 }
 
-button {
+#resume-button {
   width: 161px;
   height: 48px;
   margin-left: 24px;
