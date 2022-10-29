@@ -1,0 +1,13 @@
+header {
+  width: 327px;
+  height: 107px;
+}
+
+#heads {
+  font-family: "Crete Round";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #1c1a19;
+}
