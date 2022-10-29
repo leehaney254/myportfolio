@@ -80,7 +80,6 @@ section {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
   gap: 12px;
 }
 
@@ -137,13 +136,13 @@ section {
 .but-see {
   height: 48px;
   background: #ff6b00;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: #fff;
   border: none;
 }
 
