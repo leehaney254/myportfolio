@@ -1,5 +1,8 @@
 body {
   background: #1c1a19;
+  background-image: url("./assets/readme.png");
+  background-repeat: no-repeat;
+  background-position: 100%;
 }
 
 header {
@@ -8,11 +11,68 @@ header {
 }
 
 #heading {
-  font-family: "Crete Round";
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
   line-height: 88px;
   letter-spacing: 0.37px;
   color: #ff6b00;
+}
+
+#text {
+  width: 327px;
+  height: 148px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f5f7;
+}
+
+#skills {
+  width: 329px;
+  height: 1241.46px;
+}
+
+#skill-list {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.skill-tit {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+.skill-list {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+}
+
+button {
+  width: 161px;
+  height: 48px;
+  background: #ff6b00;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  border: none;
+}
+
+button:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
 }
