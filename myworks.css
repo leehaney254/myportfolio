@@ -1,0 +1,157 @@
+header {
+  width: 327px;
+  height: 107px;
+  border-bottom: 1px solid #212121;
+  margin: 120px 24px 52px 24px;
+}
+
+#heads {
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #1c1a19;
+}
+
+section {
+  display: grid;
+  grid-template-rows: 568px 386px 386px 386px 386px 386px 386px;
+  grid-gap: 24px 0;
+}
+
+.card {
+  width: 327px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 24px 0 24px;
+}
+
+.other-cards {
+  background-image: url("./assets/rest-card.png");
+  background-repeat: no-repeat;
+}
+
+#head1 {
+  width: 327px;
+  height: 36px;
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #091e42;
+}
+
+.head-other {
+  width: 295px;
+  height: 81px;
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+
+.body-other {
+  width: 295px;
+  height: 87px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+#contents1 {
+  width: 327px;
+  height: 147px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #091e42;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+
+.button1 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  width: 49px;
+  height: 40px;
+  background: #fff;
+  border: 1px solid #8993a4;
+}
+
+.but-other {
+  height: 40px;
+  background: rgba(255, 255, 255, 0.24);
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+  border: none;
+}
+
+.butcss {
+  width: 49px;
+}
+
+.buthtm {
+  width: 56px;
+}
+
+.butboot {
+  width: 95px;
+}
+
+.butrub {
+  width: 61px;
+}
+
+#butsee1 {
+  height: 48px;
+  margin-top: 10px;
+}
+
+.but-see-width {
+  width: 327px;
+  margin-top: 30px;
+}
+
+.but-see {
+  height: 48px;
+  background: #ff6b00;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  border: none;
+}
+
+button:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+.description {
+  margin-left: 10px;
+}
