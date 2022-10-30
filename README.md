@@ -2,7 +2,7 @@
 
 ## Note
 
-**There are initial commits, branches and pull-request to this work. they can be found 1. [Here](https://github.com/leehaney254/myportfolio/tree/linters) 2. [Here](https://github.com/leehaney254/myportfolio/tree/make-header)**
+**There are initial commits, branches and pull-request to this work. they can be found 1. [Here](https://github.com/leehaney254/myportfolio/pull/4) **
 
 ## Built With
 

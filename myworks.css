@@ -1,4 +1,4 @@
-header {
+#heading-second {
   width: 327px;
   height: 107px;
   border-bottom: 1px solid #212121;
@@ -14,7 +14,7 @@ header {
   color: #1c1a19;
 }
 
-section {
+#sec {
   display: grid;
   grid-template-rows: 568px 386px 386px 386px 386px 386px 386px;
   grid-gap: 24px 0;

@@ -1,0 +1,106 @@
+body {
+  background: #1c1a19;
+}
+
+#about-me {
+  background: #1c1a19;
+  background-image: url("./assets/readme.png");
+  background-repeat: no-repeat;
+  background-position: 100% 20%;
+}
+
+#about-tit {
+  width: 327px;
+  height: 79px;
+  margin: 120px 24px 24px 24px;
+}
+
+#heading {
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+}
+
+#text {
+  width: 327px;
+  height: 148px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f5f7;
+  margin: 0 24px 15px 24px;
+}
+
+#skills {
+  width: 329px;
+  height: 1241.46px;
+}
+
+#skill-list {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  align-items: center;
+  margin-top: 150px;
+}
+
+#rec-side {
+  list-style-image: url("./assets/siderec.png");
+}
+
+#rec {
+  list-style-image: url("./assets/rec.png");
+}
+
+#circle {
+  list-style-image: url("./assets/circle.png");
+}
+
+.skill-tit {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.skill-list {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  list-style-type: none;
+  margin: 30px 0;
+}
+
+#resume-button {
+  width: 161px;
+  height: 48px;
+  margin-left: 24px;
+  background: #ff6b00;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  border: none;
+}
+
+hr {
+  margin-top: 180px;
+}
+
+button:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
