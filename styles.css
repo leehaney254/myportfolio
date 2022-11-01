@@ -264,6 +264,7 @@ ul {
   background-image: url("./assets/readme.png");
   background-repeat: no-repeat;
   background-position: 100% 14%;
+  margin-bottom: 40px;
 }
 
 #about-tit {
@@ -358,7 +359,7 @@ ul {
   color: #f55800;
 }
 
-hr {
+#firstlin {
   margin-top: 180px;
   width: 80%;
 }
@@ -367,7 +368,7 @@ footer {
   background: #fff;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  justify-content: center;
   padding: 120px 24px;
   gap: 58px;
 }
@@ -393,11 +394,38 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
   gap: 24px;
   width: 327px;
   height: 330px;
   list-style-type: none;
+}
+
+#touch-but {
+  width: 131px;
+  height: 48px;
+  background: #ff6b00;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  border: none;
+}
+
+.input {
+  width: 327px;
+  height: 48px;
+  border: none;
+  border-bottom: 2px solid #dbd8d7;
+}
+
+textarea {
+  width: 327px;
+  height: 114px;
+  border: none;
+  background: #e5e5e5;
 }
 
 button:hover {

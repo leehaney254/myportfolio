@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Roboto&display=swap"
       rel="stylesheet"
     />
     <link
@@ -198,7 +200,7 @@
         you see and have a project you need coded, don’t hestiate to contact me.
       </p>
       <button id="resume-button">Get My Resume</button>
-      <hr />
+      <hr id="firstlin" />
       <div id="skills">
         <ul id="skill-list">
           <li id="rec-side">
@@ -243,7 +245,8 @@
         <ul id="form-ul">
           <li>
             <input
-              placeholder="Your Name"
+              class="input"
+              placeholder="Full name"
               type="text"
               name="name"
               maxlength="30"
@@ -252,7 +255,8 @@
           </li>
           <li>
             <input
-              placeholder="Your Email"
+              class="input"
+              placeholder="Email address"
               type="email"
               name="email"
               required
@@ -261,48 +265,17 @@
           <li>
             <textarea
               name="message"
-              placeholder="Enter your message here..."
+              placeholder=" Enter text here"
               maxlength="500"
               required
             ></textarea>
           </li>
           <li>
-            <button type="submit">Get in touch</button>
+            <button id="touch-but" type="submit">Get in touch</button>
           </li>
         </ul>
       </form>
-      <hr />
-      <ul>
-        <li>
-          <a class="icons" href="https://github.com/leehaney254"
-            ><img src="./assets/github.png" alt="Github link"
-          /></a>
-        </li>
-        <li>
-          <a
-            class="icons"
-            href="https://www.linkedin.com/in/leehaney-george-0a4a51178/"
-            ><img src="./assets/Linkedin.png" alt="Linkedin icon"
-          /></a>
-        </li>
-        <li>
-          <a
-            class="icons"
-            href="https://app.slack.com/client/T47CT8XPG/D0487PRDM7F/rimeto_profile/U03T2ES9771"
-            ><img src="./assets/slack.png" alt="Slack icon"
-          /></a>
-        </li>
-        <li>
-          <a class="icons" href="https://twitter.com/Lee06785586"
-            ><img src="./assets/twitter.png" alt="Twitter icon"
-          /></a>
-        </li>
-        <li>
-          <a class="icons" href="georgeleehaney@gmail.com"
-            ><img src="./assets/gmail.png" alt="gmail icon"
-          /></a>
-        </li>
-      </ul>
+      <hr id="sec-hr" />
     </footer>
   </body>
 </html>
