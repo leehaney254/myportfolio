@@ -363,6 +363,43 @@ hr {
   width: 80%;
 }
 
+footer {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  gap: 58px;
+}
+
+#foot-text {
+  width: 327px;
+  height: 216px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+}
+
+form {
+  width: 327px;
+  height: 330px;
+}
+
+#form-ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  width: 327px;
+  height: 330px;
+  list-style-type: none;
+}
+
 button:hover {
   background: #fff5e1;
   border: 1px solid #f55800;
