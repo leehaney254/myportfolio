@@ -404,7 +404,7 @@ form {
   width: 131px;
   height: 48px;
   background: #ff6b00;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
