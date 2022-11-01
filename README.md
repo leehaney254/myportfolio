@@ -1,14 +1,11 @@
 # My Portfolio
 
-## Note
-
-**There are initial commits, branches and pull-request to this work. they can be found 1. [Here](https://github.com/leehaney254/myportfolio/pull/4) **
-
 ## Built With
 
 - HTML
 - CSS
 - Linters
+- formspree
 
 ## Getting Started
 
@@ -28,6 +25,7 @@ To get a local copy up and running follow these simple example steps.
 - Code editor
 - Browser
 - Git and Github
+- Formspree
 
 ### Install
 
@@ -47,6 +45,18 @@ To get a local copy up and running follow these simple example steps.
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/leehaney-george-0a4a51178/)
 
 ## 🤝 Contributing
+
+👤 **Prantosh Biswas**
+
+- GitHub: [@PrantoshB](https://github.com/PrantoshB)
+- Twitter: [@prantalks](https://twitter.com/prantalks)
+- LinkedIn: [Prantosh Biswas](https://linkedin.com/in/prantosh)
+
+👤 **Diana Geki**
+
+- GitHub: [@PrantoshB](https://github.com/DianaBeki)
+- Twitter: [@prantalks](https://github.com/DianaBeki#)
+- Instagram: [Prantosh Biswas](https://github.com/DianaBeki#)
 
 Contributions, issues, and feature requests are welcome!
 
