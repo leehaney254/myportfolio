@@ -51,6 +51,7 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@PrantoshB](https://github.com/PrantoshB)
 - Twitter: [@prantalks](https://twitter.com/prantalks)
 - LinkedIn: [Prantosh Biswas](https://linkedin.com/in/prantosh)
+- Instagram: [@prantalks](https://instagram.com/prantalks)
 
 👤 **Diana Geki**
 

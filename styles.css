@@ -52,6 +52,13 @@ body {
   padding: 120px 24px 25px 24px;
 }
 
+#second-media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 #primary {
   font-family: "Crete Round", serif;
   font-style: normal;
