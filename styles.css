@@ -31,6 +31,10 @@ body {
   padding: 10px 12px;
 }
 
+#anc-decor {
+  text-decoration: none;
+}
+
 #logo {
   height: 24px;
   top: calc(50% - 44px / 2);
