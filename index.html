@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Roboto&display=swap"
       rel="stylesheet"
     />
     <link
@@ -22,7 +24,7 @@
   <body>
     <header>
       <nav id="navbar">
-        <a href="index.html"
+        <a id="anc-decor" href="index.html"
           ><div><p id="logo">Leehaney George</p></div></a
         >
         <div>
@@ -198,7 +200,7 @@
         you see and have a project you need coded, don’t hestiate to contact me.
       </p>
       <button id="resume-button">Get My Resume</button>
-      <hr />
+      <hr id="firstlin" />
       <div id="skills">
         <ul id="skill-list">
           <li id="rec-side">
@@ -233,5 +235,78 @@
         </ul>
       </div>
     </section>
+    <footer>
+      <p id="foot-text">
+        I'm always <br />interested in hearing <br />
+        about new projects, <br />
+        so if you'd like to chat please get in touch.
+      </p>
+      <form action="https://formspree.io/f/mdojpnkb" method="POST">
+        <ul id="form-ul">
+          <li>
+            <input
+              class="input"
+              placeholder="Full name"
+              type="text"
+              name="name"
+              maxlength="30"
+              required
+            />
+          </li>
+          <li>
+            <input
+              class="input"
+              placeholder="Email address"
+              type="email"
+              name="email"
+              required
+            />
+          </li>
+          <li>
+            <textarea
+              name="message"
+              placeholder=" Enter text here"
+              maxlength="500"
+              required
+            ></textarea>
+          </li>
+          <li>
+            <button id="touch-but" type="submit">Get in touch</button>
+          </li>
+        </ul>
+      </form>
+      <hr id="sec-hr" />
+      <ul id="second-media">
+        <li>
+          <a class="icons" href="https://github.com/leehaney254"
+            ><img src="./assets/gitfoot.png" alt="Github link"
+          /></a>
+        </li>
+        <li>
+          <a
+            class="icons"
+            href="https://www.linkedin.com/in/leehaney-george-0a4a51178/"
+            ><img src="./assets/linkedinfoot.png" alt="Linkedin icon"
+          /></a>
+        </li>
+        <li>
+          <a
+            class="icons"
+            href="https://app.slack.com/client/T47CT8XPG/D0487PRDM7F/rimeto_profile/U03T2ES9771"
+            ><img src="./assets/slackfoot.png" alt="Slack icon"
+          /></a>
+        </li>
+        <li>
+          <a class="icons" href="https://twitter.com/Lee06785586"
+            ><img src="./assets/twitterfoot.png" alt="Twitter icon"
+          /></a>
+        </li>
+        <li>
+          <a class="icons" href="georgeleehaney@gmail.com"
+            ><img src="./assets/gmailfoot.png" alt="gmail icon"
+          /></a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>

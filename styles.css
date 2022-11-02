@@ -1,14 +1,17 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #1c1a19;
+  width: 375px;
+  height: 1901px;
+  background: #e5e5e5;
 }
 
 #space-down {
   background-image: url("./assets/Illustration.png");
   background-repeat: no-repeat;
-  background-position: 100% 130%;
+  background-position: 230px 130%;
   padding-bottom: 100px;
+  background-color: #1c1a19;
 }
 
 #section-bac {
@@ -26,6 +29,10 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 10px 12px;
+}
+
+#anc-decor {
+  text-decoration: none;
 }
 
 #logo {
@@ -47,6 +54,13 @@ body {
   width: 327px;
   height: 124px;
   padding: 120px 24px 25px 24px;
+}
+
+#second-media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 #primary {
@@ -263,7 +277,10 @@ ul {
 #about-me {
   background-image: url("./assets/readme.png");
   background-repeat: no-repeat;
-  background-position: 100% 14%;
+  background-position: 215px 20%;
+  background-color: #1c1a19;
+  padding: 40px 0 100px 0;
+  width: 375px;
 }
 
 #about-tit {
@@ -358,9 +375,79 @@ ul {
   color: #f55800;
 }
 
-hr {
+#firstlin {
   margin-top: 180px;
   width: 80%;
+}
+
+footer {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 120px 24px;
+  gap: 58px;
+}
+
+#foot-text {
+  width: 327px;
+  height: 216px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+}
+
+form {
+  width: 327px;
+  height: 330px;
+}
+
+#form-ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 327px;
+  height: 330px;
+  list-style-type: none;
+}
+
+#touch-but {
+  width: 131px;
+  height: 48px;
+  background: #ff6b00;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  border: none;
+}
+
+#touch-but:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+.input {
+  width: 327px;
+  height: 48px;
+  border: none;
+  border-bottom: 2px solid #dbd8d7;
+}
+
+textarea {
+  width: 327px;
+  height: 114px;
+  border: none;
+  background: #e5e5e5;
 }
 
 button:hover {
