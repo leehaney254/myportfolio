@@ -9,7 +9,7 @@
 
 ## Getting Started
 
-**To run this project on your local machine make sure you have nodejs and npm installed on your machine. The project was made with a mobile first approach.**
+**This is an online portfolio. To run this project on your local machine make sure you have nodejs and npm installed on your machine. The project was made with a mobile first approach.**
 **You can make changes on the HTML file to fit your customisation. Changes on the css file can also be made to fit your customization.**
 
 To get a local copy up and running follow these simple example steps.
@@ -34,7 +34,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Usage
 
-- You can modify it and use it as your own portfolio
+- You can modify it and use it as your own online portfolio.
 
 ## Authors
 
@@ -67,3 +67,9 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Thank you microverse for the immense knowledge shared.
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
