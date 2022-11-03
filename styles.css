@@ -138,7 +138,7 @@ ul {
 
 #sec {
   display: grid;
-  grid-template-rows: 568px 386px 386px 386px 386px 386px 386px;
+  grid-template-rows: 386px 386px 386px 386px 386px 386px;
   grid-gap: 24px 0;
 }
 
@@ -305,7 +305,7 @@ ul {
 }
 
 #skills {
-  height: 1241.46px;
+  max-height: 1241.46px;
 }
 
 #skill-list {
@@ -394,7 +394,7 @@ footer {
 }
 
 form {
-  width: 327px;
+  max-width: 327px;
   height: 330px;
 }
 
@@ -507,33 +507,89 @@ button:hover {
   }
 
   #recent-rule {
-    width: 90%;
+    margin-left: 25px;
+    width: 60%;
   }
 
   #card {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
   }
 
   #grid-card {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-gap: 10px 20px;
   }
 
   #about-me {
     background-image: url("./assets/Frame.png");
     background-repeat: no-repeat;
-    background-position: 100% 20%;
+    background-position: 100% 8%;
   }
 
   #skill-list {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: flex-start;
   }
 
   #form-foot {
     display: flex;
+  }
+
+  #rec-image {
+    max-width: 684px;
+    flex-grow: 2;
+  }
+
+  #descp {
+    padding: 0 20px;
+    display: none;
+  }
+
+  #sec {
+    display: grid;
+    grid-template-rows: 386px 386px;
+    grid-gap: 24px 0;
+  }
+
+  #form-foot {
+    justify-content: space-around;
+  }
+
+  form {
+    max-width: 684px;
+    flex-grow: 2;
+  }
+
+  #form-ul {
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  #form-ul li {
+    width: 100%;
+  }
+
+  .input {
+    width: 100%;
+  }
+
+  textarea {
+    width: 100%;
+  }
+
+  .about-left {
+    margin-left: 95px;
+  }
+
+  #text {
+    max-width: 480px;
+  }
+
+  .first-card {
+    background-image: url(./assets/Img\ Placeholder.png);
   }
 }
