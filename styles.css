@@ -13,6 +13,8 @@ body {
   background-position: 100% 130%;
   padding-bottom: 100px;
   background-color: #1c1a19;
+  display: flex;
+  flex-direction: column;
 }
 
 #section-bac {
@@ -122,7 +124,6 @@ ul {
 
 #heading-second {
   height: 107px;
-  border-bottom: 1px solid #212121;
   margin: 0 24px 52px 24px;
 }
 
@@ -407,6 +408,10 @@ form {
   list-style-type: none;
 }
 
+#recent-rule {
+  color: #212121;
+}
+
 #touch-but {
   width: 131px;
   height: 48px;
@@ -466,5 +471,69 @@ button:hover {
 
   .anc-decor {
     color: #fff;
+  }
+
+  #space-down {
+    background-image: url(./assets/Illustration-header@2x.png);
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: 40% 600px;
+    background-position: 100% 130%;
+  }
+
+  #conts {
+    display: flex;
+    flex-direction: column;
+    max-width: 566px;
+    box-sizing: border-box;
+  }
+
+  #space-down {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: start;
+  }
+
+  #socialmedia {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    width: 60px;
+  }
+
+  #heading-second {
+    display: flex;
+    align-items: center;
+  }
+
+  #recent-rule {
+    width: 90%;
+  }
+
+  #card {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #grid-card {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px 20px;
+  }
+
+  #about-me {
+    background-image: url("./assets/Frame.png");
+    background-repeat: no-repeat;
+    background-position: 100% 20%;
+  }
+
+  #skill-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  #form-foot {
+    display: flex;
   }
 }
