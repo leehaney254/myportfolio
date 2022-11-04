@@ -7,18 +7,17 @@ body {
   display: none;
 }
 
+.flexs {
+  display: flex;
+}
+
 #space-down {
   background-image: url("./assets/Illustration.png");
   background-repeat: no-repeat;
   background-position: 100% 130%;
   padding-bottom: 100px;
   background-color: #1c1a19;
-  display: flex;
   flex-direction: column;
-}
-
-#large-image {
-  display: none;
 }
 
 #section-bac {
@@ -30,7 +29,6 @@ body {
   height: 48px;
   background-color: #3c3a39;
   box-sizing: border-box;
-  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
@@ -51,6 +49,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+#large-image {
+  display: none;
+}
+
 #menu {
   width: 24px;
   height: 24px;
@@ -62,7 +64,6 @@ body {
 }
 
 #second-media {
-  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -102,7 +103,6 @@ body {
 }
 
 #socialmedia {
-  display: flex;
   flex-direction: row;
   align-items: center;
   width: 200px;
@@ -313,7 +313,6 @@ ul {
 }
 
 #skill-list {
-  display: flex;
   flex-direction: column;
   color: #fff;
   align-items: center;
@@ -378,7 +377,6 @@ ul {
 
 footer {
   background: #fff;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 120px 24px;
@@ -404,7 +402,6 @@ form {
 }
 
 #form-ul {
-  display: flex;
   flex-direction: column;
   align-items: center;
   gap: 24px;
