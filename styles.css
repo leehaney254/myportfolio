@@ -17,6 +17,10 @@ body {
   flex-direction: column;
 }
 
+#large-image {
+  display: none;
+}
+
 #section-bac {
   background: #fff;
   padding: 100px 0;
@@ -502,6 +506,7 @@ button:hover {
   }
 
   #heading-second {
+    margin-left: 140px;
     display: flex;
     align-items: center;
   }
@@ -514,10 +519,11 @@ button:hover {
   #card {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    margin-left: 140px;
   }
 
   #grid-card {
+    row-gap: 30px;
     display: grid;
     grid-template-columns: auto auto auto;
   }
@@ -539,11 +545,6 @@ button:hover {
     display: flex;
   }
 
-  #rec-image {
-    max-width: 684px;
-    flex-grow: 2;
-  }
-
   #descp {
     padding: 0 20px;
     display: none;
@@ -551,8 +552,10 @@ button:hover {
 
   #sec {
     display: grid;
-    grid-template-rows: 386px 386px;
-    grid-gap: 24px 0;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 435px 435px;
+    grid-row-gap: 20px;
+    margin: 0 20px 0 120px;
   }
 
   #form-foot {
@@ -591,5 +594,35 @@ button:hover {
 
   .first-card {
     background-image: url(./assets/Img\ Placeholder.png);
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .disp-but {
+    display: none;
+  }
+
+  .buttons {
+    margin-bottom: 15px;
+  }
+
+  .teni-img {
+    background-image: url(./assets/cardimg.png);
+  }
+
+  .av-img {
+    background-image: url(./assets/cardimg1.png);
+  }
+
+  #rec-image {
+    display: none;
+  }
+
+  #large-image {
+    display: inline;
+  }
+
+  #descp-side {
+    margin-left: 10px;
   }
 }
