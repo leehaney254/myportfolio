@@ -458,6 +458,33 @@ button:hover {
 }
 
 @media only screen and (min-width: 768px) {
+  #logo {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  #textthree {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    max-width: 566px;
+    margin-top: 10px;
+  }
+
+  #texttwo {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    margin-top: 30px;
+  }
+
   #hum-menu {
     display: none;
   }
@@ -476,16 +503,22 @@ button:hover {
 
   .anc-decor {
     color: #fff;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
   }
 
   #space-down {
     background-image: url(./assets/Illustration-header@2x.png);
     background-repeat: no-repeat;
-    background-size: 40% 600px;
-    background-position: 100% 130%;
+    background-size: 40% 700px;
+    background-position: 100% 120%;
     flex-direction: row-reverse;
     align-items: center;
     justify-content: start;
+    padding-bottom: 200px;
   }
 
   #conts {
