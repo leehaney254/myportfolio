@@ -305,7 +305,7 @@ ul {
   font-size: 16px;
   line-height: 24px;
   color: #f4f5f7;
-  margin: 0 24px 15px 24px;
+  margin: 90px 24px 15px 24px;
 }
 
 #skills {
@@ -395,6 +395,7 @@ footer {
   line-height: 44px;
   text-align: center;
   color: #172b4d;
+  margin-bottom: 50px;
 }
 
 form {
@@ -480,9 +481,11 @@ button:hover {
   #space-down {
     background-image: url(./assets/Illustration-header@2x.png);
     background-repeat: no-repeat;
-    background-position: 0;
     background-size: 40% 600px;
     background-position: 100% 130%;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: start;
   }
 
   #conts {
@@ -490,12 +493,6 @@ button:hover {
     flex-direction: column;
     max-width: 566px;
     box-sizing: border-box;
-  }
-
-  #space-down {
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: start;
   }
 
   #socialmedia {
@@ -543,6 +540,7 @@ button:hover {
 
   #form-foot {
     display: flex;
+    justify-content: space-around;
   }
 
   #descp {
@@ -556,10 +554,6 @@ button:hover {
     grid-template-rows: 435px 435px;
     grid-row-gap: 20px;
     margin: 0 20px 0 120px;
-  }
-
-  #form-foot {
-    justify-content: space-around;
   }
 
   form {
