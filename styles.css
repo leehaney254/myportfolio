@@ -456,7 +456,7 @@ button:hover {
 
 @media only screen and (min-width: 768px) {
   #logo {
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -464,7 +464,7 @@ button:hover {
   }
 
   #textthree {
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -474,7 +474,7 @@ button:hover {
   }
 
   #texttwo {
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
@@ -500,7 +500,7 @@ button:hover {
 
   .anc-decor {
     color: #fff;
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
