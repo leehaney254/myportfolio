@@ -388,8 +388,7 @@ ul {
   letter-spacing: 0.03em;
   color: #fff;
   border: none;
-
-  /* Dia he */
+  transition-duration: 2s;
 }
 
 #resume-button:hover {
