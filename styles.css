@@ -53,7 +53,27 @@ body {
   animation-name: rotate;
 }
 
-/* pruh here */
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  75% {
+    transform: rotate(360deg);
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 
 #menu {
   width: 24px;
