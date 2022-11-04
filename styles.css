@@ -584,6 +584,7 @@ button:hover {
 
   #text {
     max-width: 480px;
+    margin-top: 0;
   }
 
   .first-card {
