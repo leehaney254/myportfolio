@@ -49,7 +49,11 @@ body {
   line-height: 24px;
   color: #fff;
   font-family: "Roboto", sans-serif;
+  animation-duration: 3s;
+  animation-name: rotate;
 }
+
+/* pruh here */
 
 #menu {
   width: 24px;
@@ -363,6 +367,7 @@ ul {
   letter-spacing: 0.03em;
   color: #fff;
   border: none;
+  /* Dia he */
 }
 
 #resume-button:hover {
