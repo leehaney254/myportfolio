@@ -57,6 +57,7 @@ body {
   from {
     transform: rotate(0);
   }
+
   25% {
     transform: rotate(90deg);
   }
@@ -387,6 +388,7 @@ ul {
   letter-spacing: 0.03em;
   color: #fff;
   border: none;
+
   /* Dia he */
 }
 
