@@ -47,6 +47,31 @@ body {
   line-height: 24px;
   color: #fff;
   font-family: "Roboto", sans-serif;
+  animation-duration: 3s;
+  animation-name: rotate;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+
+  25% {
+    transform: rotate(90deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  75% {
+    transform: rotate(360deg);
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 #large-image {
@@ -362,6 +387,7 @@ ul {
   letter-spacing: 0.03em;
   color: #fff;
   border: none;
+  transition-duration: 2s;
 }
 
 #resume-button:hover {
