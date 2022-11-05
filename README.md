@@ -1,5 +1,7 @@
 # My Portfolio
 
+## Other pull requests can be found (here)[https://github.com/leehaney254/myportfolio/pull/7]
+
 ## Built With
 
 - HTML
