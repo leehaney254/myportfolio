@@ -1,15 +1,16 @@
 body {
   margin: 0;
   padding: 0;
-  width: 375px;
-  height: 1901px;
-  background: #e5e5e5;
+}
+
+#nav-link {
+  display: none;
 }
 
 #space-down {
   background-image: url("./assets/Illustration.png");
   background-repeat: no-repeat;
-  background-position: 230px 130%;
+  background-position: 100% 130%;
   padding-bottom: 100px;
   background-color: #1c1a19;
 }
@@ -20,7 +21,6 @@ body {
 }
 
 #navbar {
-  width: 375px;
   height: 48px;
   background-color: #3c3a39;
   box-sizing: border-box;
@@ -31,7 +31,7 @@ body {
   padding: 10px 12px;
 }
 
-#anc-decor {
+.anc-decor {
   text-decoration: none;
 }
 
@@ -51,7 +51,6 @@ body {
 }
 
 #intro {
-  width: 327px;
   height: 124px;
   padding: 120px 24px 25px 24px;
 }
@@ -85,7 +84,6 @@ body {
 }
 
 #textthree {
-  width: 327px;
   height: 123px;
   font-family: "Poppins", serif;
   font-style: normal;
@@ -123,7 +121,6 @@ ul {
 }
 
 #heading-second {
-  width: 327px;
   height: 107px;
   border-bottom: 1px solid #212121;
   margin: 0 24px 52px 24px;
@@ -157,7 +154,6 @@ ul {
 }
 
 #head1 {
-  width: 327px;
   height: 36px;
   font-family: "Crete Round", sans-serif;
   font-style: normal;
@@ -190,7 +186,6 @@ ul {
 }
 
 #contents1 {
-  width: 327px;
   height: 147px;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -277,14 +272,12 @@ ul {
 #about-me {
   background-image: url("./assets/readme.png");
   background-repeat: no-repeat;
-  background-position: 215px 20%;
+  background-position: 100% 20%;
   background-color: #1c1a19;
   padding: 40px 0 100px 0;
-  width: 375px;
 }
 
 #about-tit {
-  width: 327px;
   height: 79px;
   margin: 120px 24px 24px 24px;
 }
@@ -300,7 +293,6 @@ ul {
 }
 
 #text {
-  width: 327px;
   height: 148px;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -312,7 +304,6 @@ ul {
 }
 
 #skills {
-  width: 329px;
   height: 1241.46px;
 }
 
@@ -454,4 +445,26 @@ button:hover {
   background: #fff5e1;
   border: 1px solid #f55800;
   color: #f55800;
+}
+
+@media only screen and (min-width: 768px) {
+  #hum-menu {
+    display: none;
+  }
+
+  .anc-margin {
+    margin-left: 150px;
+  }
+
+  #nav-link {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right: 150px;
+    gap: 30px;
+  }
+
+  .anc-decor {
+    color: #fff;
+  }
 }
