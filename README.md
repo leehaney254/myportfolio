@@ -27,6 +27,9 @@ To get a local copy up and running follow these simple example steps.
 - Git and Github
 - Formspree
 
+### Live
+- A live view can be found [here.](https://leehaney254.github.io/myportfolio/#)
+
 ### Install
 
 - Nodejs
